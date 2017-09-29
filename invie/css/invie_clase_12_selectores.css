@@ -1,0 +1,34 @@
+/*SELECTOR UNIVERSAL*/
+* {
+  border: 1px solid red;
+  margin: 10px;
+}
+/*SELECTOR DE ETIQUETA*/
+header {
+  background: lightblue;
+}
+
+section {
+  background: #d89de0;
+}
+/*SELECTOR DESCENDENTE*/
+article h3 {
+  color: green;
+}
+/*SELECTORES DE CLASE*/
+.title-a{
+  background: yellow;
+}
+.title-b{
+  background: salmon;
+}
+/*SELECTOR DE ID*/
+#header{
+  border: 3px solid black;
+}
+#portada{
+  border: 3px solid orange;
+}
+#guitarras{
+  border: 3px solid brown;
+}
