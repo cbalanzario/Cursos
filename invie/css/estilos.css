@@ -1,0 +1,15 @@
+body{
+  background-color: #274156;
+  color: #C3DEF7;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.caja{
+  width: 200px;
+  border: 1px solid #7189FF;
+  margin-bottom: 50px;
+}
+
+.tipo-a{
+  margin: 0 auto;
+}
