@@ -2,6 +2,7 @@ body{
   background-color: #274156;
   color: #C3DEF7;
   font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
 }
 
 .caja{
@@ -12,4 +13,16 @@ body{
 
 .tipo-a{
   margin: 0 auto;
+}
+.tipo-b{
+  margin-left: calc(100vw / 2 - 100px);
+}
+.tipo-c{
+  border: 1px solid #7189FF;
+  padding: 10px;
+  text-align: center;
+}
+.tipo-c .caja{
+  display: inline-block;
+  text-align: left;
 }
