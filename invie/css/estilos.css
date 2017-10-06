@@ -54,3 +54,13 @@ body{
   display: flex;
   justify-content: center;
 }
+
+.tipo-g{
+  display: table;
+  width: 100%;
+}
+
+.tipo-g .caja{
+  display: table-cell;
+  width: 100px;
+}
