@@ -3,6 +3,7 @@ body{
   color: #C3DEF7;
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
+  padding-bottom: 200px;
 }
 
 .caja{
@@ -25,4 +26,14 @@ body{
 .tipo-c .caja{
   display: inline-block;
   text-align: left;
+}
+.relative{
+  position: relative;
+  border: 1px solid #7189FF;
+}
+.tipo-d{
+  position: absolute;
+  left: 0;
+  top: 0;
+  
 }
