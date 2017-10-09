@@ -55,7 +55,6 @@ body{
   transition: .5s;
 }
 @keyframes cvander {
-
   50%{
     transform: translateY(5px) rotate(4deg);
   }
