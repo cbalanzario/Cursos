@@ -7,4 +7,13 @@
 .iphone{
   display: inline-block;
   margin-top: 150px;
+  position: relative;
+}
+.shape{
+  background-image: url(../images/shape.jpg);
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  top: 54px;
+  right: 154px;
 }
