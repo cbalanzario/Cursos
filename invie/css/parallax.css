@@ -8,6 +8,7 @@
   display: inline-block;
   margin-top: 150px;
   position: relative;
+  transition: .3s;
 }
 .shape{
   background-image: url(../images/shape.jpg);
@@ -16,6 +17,7 @@
   position: absolute;
   top: 75px;
   right: 161px;
-  background-position: 0 0;
+  background-position: -54px;
+-webkit-mask-image: url(../images/apple-mask.png);
   mask-image: url(../images/apple-mask.png);
 }
