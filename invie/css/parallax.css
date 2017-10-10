@@ -1,0 +1,10 @@
+.container{
+  height: 200vh;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.iphone{
+  display: inline-block;
+  margin-top: 150px;
+}
