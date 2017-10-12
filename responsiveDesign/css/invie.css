@@ -218,3 +218,15 @@ input:focus, textarea:focus{
 .tabla{
   margin: 50px 0px;
 }
+
+
+/*DETERMINAMOS QUE TIPO DE MEDIA SEA. EN ESTE CASO SCREEN INDICA QUE ES DE
+VISUALIZACIÓN EN LA PANTALLA ADEMÁS LE DETERMINAMOS EN QUE MOMENTO ENTRARÁ EN
+ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
+@media screen and (max-width:800px){
+  body{
+    background: lightblue;
+    border: 10px solid black;
+  }
+
+}
