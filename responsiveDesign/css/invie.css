@@ -223,11 +223,12 @@ input:focus, textarea:focus{
 /*DETERMINAMOS QUE TIPO DE MEDIA SEA. EN ESTE CASO SCREEN INDICA QUE ES DE
 VISUALIZACIÓN EN LA PANTALLA ADEMÁS LE DETERMINAMOS EN QUE MOMENTO ENTRARÁ EN
 ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
-@media screen and (max-width:800px){
+@media screen and (max-width:800px){/*TABLETAS*/
   /*PORTADA*/
   .titulo{
     font-size: 45px;
     margin-top: 30px;
+    text-align: center;
   }
   .title-a{
     font-size: 18px;
@@ -242,7 +243,6 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
   /*PORTADA*/
   /*GUITARRAS*/
   .guitarras{
-    /*border: 1px solid red;*/
     text-align: center;
   }
   .der, .izq{
@@ -263,5 +263,49 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
     margin: 0;
   }
   /*GUITARRAS*/
+}
+@media screen and (max-width:650px){/*CELULARES*/
+  /*PORTADA*/
+  .header{
+    text-align: center;
+  }
+  .logotipo{
+    margin: 0;
+  }
+  .menu{
+    position: static;
+    display: block;
 
+  }
+  .menu li:first-child{
+    margin: 0;
+  }
+  .menu ul{
+    padding: 0;
+  }
+  /*PORTADA*/
+}
+
+@media screen and (max-width:500px){/*CELULARES*/
+  .menu li{
+    display: block;
+    margin: 0;
+    padding: 8px 0;
+    border-bottom: 1px solid white;
+  }
+  .menu li:first-child{
+    border-top: 1px solid white;
+  }
+  .menu li:before {
+    display: none;
+  }
+  .portada{
+    text-align: center;
+  }
+  .titulo{
+    font-size: 30px;
+  }
+  .title-a{
+    font-size: 16px;
+  }
 }
