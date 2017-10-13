@@ -262,6 +262,9 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
     position: static;
     margin: 0;
   }
+  .contenedor-guitarra-a{
+    padding: 0;
+  }
   /*GUITARRAS*/
 }
 @media screen and (max-width:650px){/*CELULARES*/
@@ -284,9 +287,12 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
     padding: 0;
   }
   /*PORTADA*/
+
+
 }
 
 @media screen and (max-width:500px){/*CELULARES*/
+  /*PORTADA*/
   .menu li{
     display: block;
     margin: 0;
@@ -307,5 +313,12 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
   }
   .title-a{
     font-size: 16px;
+  }
+  /*PORTADA*/
+  .guitarra img{
+    width: 200px;
+  }
+  .title-b{
+    font-size: 30px;
   }
 }
