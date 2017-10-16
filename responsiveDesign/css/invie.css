@@ -267,6 +267,43 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
   }
   /*GUITARRAS*/
 }
+@media screen and (max-width:767px){/*PARA EL FOOTER POR DEBAJO DEL IPAD*/
+  /*FOOTER*/
+  .footer{
+    border: 1px solid red;
+  }
+  .footer .contenedor{
+    display: block;
+  }
+  .contacto{
+    margin: 0 auto;
+  }
+  .formulario{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  .intereses label{
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .col1{
+    margin: 0;
+  }
+  input[type="text"],input[type="email"]{
+    padding: 5px;
+    font-size: 16px;
+  }
+  input[type="radio"],input[type="checkbox"]{
+    zoom: 1.5;
+  }
+  textarea{
+    width: 100%;
+  }
+  /*FOOTER*/
+}
+
 @media screen and (max-width:650px){/*CELULARES*/
   /*PORTADA*/
   .header{
