@@ -36,8 +36,12 @@
 	</section>
 	<section id="guitarras" class="guitarras contenedor"><!-- guitarras -->
 		<h2>Nuestras guitarras</h2> <!-- titulo -->
+		<div class="video-responsive-contenedor">
+			<iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/kvOnEFtKK28?rel=0" frameborder="0" allowfullscreen></iframe><!-- Video Insertado -->
+		</div>
+		<video src="video/320x240.ogg"></video><!-- Video en HTML5-->
 		<article class="guitarra"> <!-- guitarra 1 -->
-			<img src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="350" class="der">
+			<img data-src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="350" class="der">
 			<div class="contenedor-guitarra-a">
 				<h3 class="title-b">Invie Acustica</h3>
 				<ol>
@@ -48,7 +52,7 @@
 			</div>
 		</article>
 		<article class="guitarra b"> <!-- guitarra 2 -->
-			<img src="images/invie-classic.png" alt="Guitarra Invie Clasica" width="350" class="izq">
+			<img data-src="images/invie-classic.png" alt="Guitarra Invie Clasica" width="350" class="izq">
 			<div class="contenedor-guitarra-b">
 				<h3 class="title-b">Invie Classic</h3>
 				<ol>
@@ -62,7 +66,7 @@
 	<footer class="footer">
 		<div class="contenedor">
 			<div class="contacto">
-				<img src="images/invie-white.png" alt="logotipo blanco">
+				<img data-src="images/invie-white.png" alt="logotipo blanco">
 				<a href="tel:+5256226124"><strong>Teléfono</strong> <span>56226124</span></a>
 				<a href="mailto:prueba@dgp.unam.mx"><strong>E-mail</strong> <span>prueba@dgp.unam.mx</span></a>
 			</div>
@@ -103,21 +107,20 @@
 			</form>
 		</div>
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
 	<script>
-		var consulta=window.matchMedia('(max-width: 500px)');
-		consulta.addListener(mediaQuerie);
+		var consulta=window.matchMedia('(max-width: 500px)');//Ancho donde queremos el comportamiento
+		consulta.addListener(mediaQuerie);//Se crea el escucha del ancho
 
 		var $burguerButton = document.getElementById('burguer-button');
 		var $menu = document.getElementById('menu');
 
-
-
-		function toggleMenu(){
+		function toggleMenu(){//Función donde se activa y desactiva la clase al apretarlo
 			$menu.classList.toggle('active');
 			$burguerButton.classList.toggle('icon-close');
 		};
 
-		function mediaQuerie(){
+		function mediaQuerie(){//Funcion que dependiendo el ancho se ejecuta o no
 			if(consulta.matches){
 				console.log("Se cumplió la condición");
 				$burguerButton.addEventListener('touchstart',toggleMenu);
@@ -127,7 +130,11 @@
 				$burguerButton.removeEventListener('touchstart',toggleMenu);
 			}
 		}
-		mediaQuerie();
+		mediaQuerie();//Se carga al inicio para que se ejecute en todo momento.
+
+		var bLazy = new Blazy({//LazyLoading
+    	selector: 'img'
+		});
 
 	</script>
 </body>
