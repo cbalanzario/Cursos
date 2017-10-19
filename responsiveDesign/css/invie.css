@@ -323,7 +323,7 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
 @media screen and (max-width:767px){/*PARA EL FOOTER POR DEBAJO DEL IPAD*/
   /*FOOTER*/
   .footer{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
   }
   .footer .contenedor{
     display: block;
@@ -453,4 +453,9 @@ video{
   bottom: 0;
   width: 100%;
   height: 100%;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    background-image: url('../images/background2x.png');
+  }
 }
