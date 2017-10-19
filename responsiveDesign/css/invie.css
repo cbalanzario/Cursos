@@ -262,7 +262,7 @@ input:focus, textarea:focus{
   display: inline-block;
   line-height: 40px;
   border-radius: 50%;
-  /*background-color: transparent;*/
+  color: white;
   background-color: #395667;
   cursor: pointer;
   text-align: center;
@@ -319,6 +319,15 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
     padding: 0;
   }
   /*GUITARRAS*/
+  /*PRECIOS*/
+  .tabla{
+    margin: 50px 20px;
+  }
+  .tabla .contenedor{
+    overflow: auto;
+    border: 1px solid #273b47;
+  }
+  /*PRECIOS*/
 }
 @media screen and (max-width:767px){/*PARA EL FOOTER POR DEBAJO DEL IPAD*/
   /*FOOTER*/
@@ -384,6 +393,12 @@ ACCION, QUE ES CUANDO EL WIDTH DE LA PANTALLA SEA MENOR A 800PX*/
 @media screen and (max-width:500px){/*CELULARES*/
   /*PORTADA*/
   .portada .contenedor{
+    position: static;
+  }
+  .header{
+    position: static;
+  }
+  .header .contenedor{
     position: static;
   }
   .menu{
