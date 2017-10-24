@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Invie - tus mejores guitarras!</title>
+	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<style>
+	@font-face{font-family:'icomoon';src:url(fonts/icomoon.eot?bieda0);src:url(fonts/icomoon.eot?bieda0#iefix) format("embedded-opentype"),url(fonts/icomoon.ttf?bieda0) format("truetype"),url(fonts/icomoon.woff?bieda0) format("woff"),url(fonts/icomoon.svg?bieda0#icomoon) format("svg");font-weight:400;font-style:normal}[class*=" icon-"]{font-family:'icomoon'!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-menu:before{content:"\e9bd"}body{font-family:'Allerta',sans-serif;margin:0}.titulo{font-size:70px;font-family:'Montserrat',sans-serif;margin-bottom:0;margin-top:70px}.titulo span{text-decoration:underline}.title-a{font-size:24px;margin-top:0}.guitarras{color:#1F313C;margin-bottom:60px!important}.guitarras h2{font-size:35px;font-family:'Montserrat',sans-serif}.background{background-image:url(images/background.png);background-size:cover}.portada{color:#fff;padding:20px;height:500px}.logotipo{margin-left:0}.menu{font-size:24px;position:absolute;right:0}.menu a{color:#fff;text-decoration:none}.menu,.logotipo,.menu li{display:inline-block}.menu li{margin-left:30px}.header{position:relative}.contenedor{max-width:800px;margin:auto;position:relative}.der{float:right;position:relative;top:-126px}.button{border-radius:12px;border:none;color:#fff;padding:7px 12px;font-size:18px;background:#f3c5bd;background:-moz-linear-gradient(left,rgba(243,197,189,1) 0%,rgba(232,108,87,1) 0%,rgba(234,40,3,1) 0%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%);background:-webkit-linear-gradient(left,rgba(243,197,189,1) 0%,rgba(232,108,87,1) 0%,rgba(234,40,3,1) 0%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%);background:linear-gradient(to right,rgba(243,197,189,1) 0%,rgba(232,108,87,1) 0%,rgba(234,40,3,1) 0%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3c5bd',endColorstr='#c72200',GradientType=1);text-decoration:none}.menu li:before{content:'∘';line-height:20px;color:#fff}.burguer-button{width:40px;height:40px;display:inline-block;line-height:40px;border-radius:50%;color:#fff;background-color:#395667;text-align:center;position:fixed;left:20px;top:20px;z-index:3;display:none}.video-demo{max-width:500px;width:100%;border:5px solid #3c5b6e}.video-demo-contenedor{display:flex;justify-content:center;margin-bottom:80px}@media screen and (max-width:800px){.titulo{font-size:45px;margin-top:30px;text-align:center}.title-a{font-size:18px}.portada{height:auto}.portada .button{margin-bottom:30px;display:inline-block}.video-demo-contenedor{margin-bottom:30px}.guitarras{text-align:center}.der{float:none;position:static}}@media screen and (max-width:650px){.header{text-align:center}.logotipo{margin:0}.menu{position:static;display:block}.menu li:first-child{margin:0}.menu ul{padding:0}}@media screen and (max-width:500px){.portada .button{display:block}.burguer-button{display:block}.portada .contenedor{position:static}.header{position:static}.menu{background:rgba(255,60,88,.8);position:fixed;left:-100%;width:100%;right:0;top:0;bottom:0;z-index:2;display:flex;align-items:center}.menu ul{flex:1}.menu li{display:block;margin:0;padding:8px 0;border-bottom:1px solid #fff}.menu li:first-child{border-top:1px solid #fff}.menu li:before{display:none}.portada{text-align:center}.titulo{font-size:30px}.title-a{font-size:16px}.guitarra img{width:200px}.video-demo-contenedor{margin:0 10px 30px}}.video-responsive-contenedor{position:relative;padding-top:56.4%}.video-responsive-src{position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:100%}@media screen and (-webkit-min-device-pixel-ratio: 2){.background{background-image:url(images/background2x.png)}}
+	</style>
+</head>
+<body>
+	<section id="portada" class="portada background"><!-- Portada -->
+		<header id="header" class="header contenedor"> <!-- header -->
+			<figure class="logotipo"> <!-- logotipo -->
+				<img data-src="images/invie.png|images/invie2x.png" alt="Invie Logotipo" height="60" width="186">
+			</figure>
+			<span class="burguer-button icon-menu" id="burguer-button"></span>
+			<nav class="menu" id="menu"><!-- menu -->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="index.html#guitarras">Guitarras</a>
+					</li>
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="contenedor">
+			<h1 class="titulo">Guitarras <span>invie</span>sibles</h1><!-- titulo -->
+			<h3 class="title-a">Sé la estrella del rock que siempre quisiste ser</h3><!-- resumen -->
+			<a class="button" href="index.html#guitarras">Conoce más</a> <!-- boton -->
+		</div>
+	</section>
+	<section id="guitarras" class="guitarras contenedor"><!-- guitarras -->
+		<h2>Nuestras guitarras</h2> <!-- titulo -->
+		<div class="video-demo-contenedor">
+			<div class="video-demo"><!-- Contenedor de videos -->
+				<div class="video-responsive-contenedor">
+					<iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/kvOnEFtKK28?rel=0" frameborder="0" allowfullscreen></iframe><!-- Video Insertado -->
+				</div>
+			</div>
+		</div>
+		<!-- <video src="video/320x240.ogg"></video><!-- Video en HTML5-->
+		<article class="guitarra"> <!-- guitarra 1 -->
+			<img data-src="images/invie-acustica.png|images/invie-acustica2x.png" alt="Guitarra Invie Acustica" width="350" class="der">
+			<div class="contenedor-guitarra-a">
+				<h3 class="title-b">Invie Acustica</h3>
+				<ol>
+					<li>Estilo Vintage</li>
+					<li>Madura Pura</li>
+					<li>Incluye estuche invisible de aluminio</li>
+				</ol>
+			</div>
+		</article>
+		<article class="guitarra b"> <!-- guitarra 2 -->
+			<img data-src="images/invie-classic.png|images/invie-classic2x.png" alt="Guitarra Invie Clasica" width="350" class="izq">
+			<div class="contenedor-guitarra-b">
+				<h3 class="title-b">Invie Classic</h3>
+				<ol>
+					<li>Estilo Vintage</li>
+					<li>Liviana</li>
+					<li>Inicia tu camino como rockstar</li>
+				</ol>
+			</div>
+		</article>
+	</section>
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="contacto">
+				<img data-src="images/invie-white.png|images/invie-white2x.png" alt="logotipo blanco">
+				<a href="tel:+5256226124"><strong>Teléfono</strong> <span>56226124</span></a>
+				<a href="mailto:prueba@dgp.unam.mx"><strong>E-mail</strong> <span>prueba@dgp.unam.mx</span></a>
+			</div>
+			<form class="formulario">
+				<div class="col1">
+					<label for="nombre">Nombre</label>
+					<input type="text" required id="nombre" name="nombre">
+					<label for="email">E-mail</label>
+					<input type="email" required id="email" name="email">
+					<div class="sexo">
+						<label for="mujer">
+							<input checked type="radio" id="mujer" name="sexo" value="mujer"/> Mujer
+						</label>
+						<label for="hombre">
+							<input type="radio" id="hombre" name="sexo" value="hombre"/> Hombre
+						</label>
+					</div>
+					<div class="intereses">
+					<label for="cotizacion">
+						<input checked type="checkbox" id="cotizacion" name="intereses" value="cotizacion">Cotización
+					</label>
+					<label for="reclamos">
+						<input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+					</label>
+					<label for="comentarios">
+						<input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+					</label>
+					<label for="otros">
+						<input type="checkbox" id="otros" name="intereses" value="otros">Otros
+					</label>
+				</div>
+				</div>
+				<div class="col2">
+					<label for="comentarios">Comentarios</label>
+					<textarea name="comentarios" id="comentarios" rows="7" cols="30"></textarea>
+					<input type="submit" value="Enviar" class="button"/>
+				</div>
+			</form>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+	<script>
+		var consulta=window.matchMedia('(max-width: 500px)');//Ancho donde queremos el comportamiento
+		consulta.addListener(mediaQuerie);//Se crea el escucha del ancho
+
+		var $burguerButton = document.getElementById('burguer-button');
+		var $menu = document.getElementById('menu');
+
+		function toggleMenu(){//Función donde se activa y desactiva la clase al apretarlo
+			$menu.classList.toggle('active');
+			$burguerButton.classList.toggle('icon-close');
+		};
+
+
+		function showMenu(){//Función donde se activa y desactiva la clase al apretarlo
+			$menu.classList.add('active');
+			$burguerButton.classList.add('icon-close');
+		};
+
+		function hideMenu(){//Función donde se activa y desactiva la clase al apretarlo
+			$menu.classList.remove('active');
+			$burguerButton.classList.remove('icon-close');
+		};
+
+
+
+		function mediaQuerie(){//Funcion que dependiendo el ancho se ejecuta o no
+			if(consulta.matches){
+				console.log("Se cumplió la condición");
+				$burguerButton.addEventListener('touchstart',toggleMenu);
+
+			} else {
+				console.log("NO Se cumplió la condición");
+				$burguerButton.removeEventListener('touchstart',toggleMenu);
+			}
+		}
+		mediaQuerie();//Se carga al inicio para que se ejecute en todo momento.
+
+		var bLazy = new Blazy({//LazyLoading
+    	selector: 'img'
+		});
+
+		/*GESTOS TOUCH MEDIANTE HammerJS*/
+		var $body = document.body;
+
+		var gestos = new Hammer($body);
+		gestos.on('swipeleft', hideMenu);
+		gestos.on('swiperight', showMenu);
+
+	</script>
+	<link rel="stylesheet" href="css/invie.css">
+</body>
+</html>
